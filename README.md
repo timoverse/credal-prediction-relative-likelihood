@@ -1,4 +1,4 @@
-# Credal Prediction based on Relative Likelihood
+# [Credal Prediction based on Relative Likelihood](https://arxiv.org/abs/2505.22332)
 Predictions in the form of sets of probability distributions, so-called credal sets, provide a suitable means to represent a learner's epistemic uncertainty. 
 In this paper, we propose a theoretically grounded approach to credal prediction based on the statistical notion of relative likelihood: The target of prediction is the set of all (conditional) probability distributions produced by the collection of plausible models, namely those models whose relative likelihood exceeds a specified threshold. 
 This threshold has an intuitive interpretation and allows for controlling the trade-off between correctness and precision of credal predictions. 
