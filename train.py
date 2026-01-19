@@ -122,6 +122,7 @@ def train_ensemble(ensemble, alpha, train_loader, device, Optimizer, lr, wd, epo
                     if rl >= thresholds[i]:
                         reached = True
                         break
+                    model.train()
             if reached:
                 break
             if isinstance(optimizer, optim.SGD):
